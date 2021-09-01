@@ -1,8 +1,12 @@
 
 let options = ["rock", "paper", "scissors"];
+
 let playerSelection = function() {
+
   return prompt("Choose your weapon of destruction - Rock, Paper or Scissors?");
+
 };
+
 let computerSelection = function computerPlay() {
   return options[Math.floor(Math.random()*options.length)];
 };
