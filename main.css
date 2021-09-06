@@ -4,7 +4,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	color: #fff;
+	color: rgb(243, 223, 223);
 }
 /* To center everything in game */
 .game{
@@ -49,7 +49,7 @@
 	margin-top: 2rem;
 }
 
-/* Styling on alll three buttons */
+/* Styling on all three buttons */
 .rock, .paper, .scissor{
 	padding: 0.8rem;
 	width: 100px;

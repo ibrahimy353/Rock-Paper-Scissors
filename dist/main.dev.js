@@ -94,6 +94,8 @@ function game() {
       console.log("You win! You have beaten the computer at the game.");
     }
   }
+
+  playgame();
 }
 
 game();
