@@ -1,10 +1,11 @@
 /* styles.css */
 /* universal selector - Applies to whole document */
+
 *{
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	color: rgb(243, 223, 223);
+	color: rgba(12, 11, 11, 0.979);
 }
 /* To center everything in game */
 .game{
@@ -97,3 +98,4 @@
 	.options{
 		width: 100vw;
 	}
+}
