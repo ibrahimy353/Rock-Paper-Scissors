@@ -13,10 +13,10 @@ body {
 }
 
 .Title {
-	color: red;
+	color: rgba(228, 232, 236, 0.959);
 	font-size: 40px;
 	background-position-x: center;
-	background-color: burlywood;
+
 }
 
 .movesleft {
@@ -26,3 +26,11 @@ body {
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 } 
+
+.move {
+	color: blue;
+	position: relative;
+	font-size: 24px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
