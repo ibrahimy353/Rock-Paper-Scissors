@@ -28,9 +28,21 @@ body {
 } 
 
 .move {
-	color: blue;
-	position: relative;
+	color: red;
+	position: center;
 	font-size: 24px;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.button1{
+	transition-duration: 0.4s;
+	color: red;
+	border: 20px solid blue
+	;
+}
+.button2{
+	
+
 
 }
