@@ -19,13 +19,7 @@ body {
 
 }
 
-.movesleft {
-	color: blue;
-	position: relative;
-	font-size: 40px;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
-} 
 
 .move {
 	color: red;
@@ -38,11 +32,26 @@ body {
 .button1{
 	transition-duration: 0.4s;
 	color: red;
-	border: 20px solid blue
+	border: 2px solid blue
 	;
 }
 .button2{
 	
-
-
+	transition-duration: 0.4s;
+	color: red;
+	border: 2px solid rgb(255, 51, 0)
 }
+
+.button3{
+	transition-duration: 0.9;
+	color: rgb(255, 0, 0);
+	border: 2px solid green ;
+}
+
+.movesleft {
+	color: blue;
+	position: absolute;
+	font-size: 20px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+} 
