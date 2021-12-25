@@ -22,7 +22,7 @@ body {
 
 
 .move {
-	color: red;
+	color:off white;
 	position: center;
 	font-size: 24px;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -32,11 +32,14 @@ body {
 .flex-container {
 
 
-	border: 2px solid blue;
+
 	background-color: burlywood;
 	padding: 10px;
 	gap: 4px;
-	display: flex; ;
+	display: flex;
+	position: center;
+	border: 4px;
+	flex: 1 1 0%;
 }
 
 .results {
