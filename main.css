@@ -42,8 +42,30 @@ body {
 	flex: 1 1 0%;
 }
 
+.button1{
+	position:center;
+	font-size:20px;
+	padding:inherit;
+
+}
+
+.button2{
+	position:center;
+	font-size:20px;
+	padding:inherit;
+	
+}
+.button3{
+	position:center;
+	font-size:20px;
+	padding:inherit;
+	
+}
 .results {
 	position: center;
+	font-size: 90px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: blue;
 }
 .movesleft {
 	color:white;
