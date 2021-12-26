@@ -22,7 +22,7 @@ body {
 
 
 .move {
-	color:off white;
+	color: rgba(255, 255, 255, 0.925);
 	position: center;
 	font-size: 24px;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
