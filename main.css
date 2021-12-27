@@ -40,6 +40,7 @@ body {
 	position: center;
 	border: 4px;
 	flex: 1 1 0%;
+	justify-content: center;
 }
 
 .button1{
