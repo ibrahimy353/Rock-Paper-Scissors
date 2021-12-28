@@ -95,6 +95,7 @@ function game() {
     }
   }
 
+  var text = document.getElementById("reload1").requestFullscreen();
   playgame();
 }
 

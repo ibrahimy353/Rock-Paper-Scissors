@@ -93,6 +93,9 @@ function game() {
       console.log( "You win! You have beaten the computer at the game.");
     }
   }
+
+var text =document.getElementById("reload1").requestFullscreen();
+
   playgame()
 }
 
