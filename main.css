@@ -73,9 +73,16 @@ body {
 }
 
 .results {
-	position: center;
-	font-size: 90px;
-	color: rgb(14, 165, 102);
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	background-position: center;
+	position:center;
+	font-size:90px;
+	color:rgb(14, 165, 102);
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	background-position:center;
+}
+
+.reload {
+
+	position:center;
+	padding:inherit;
+	font-size: 30px; 
 }
