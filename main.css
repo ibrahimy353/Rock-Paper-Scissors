@@ -64,18 +64,18 @@ body {
 	padding:inherit;
 	
 }
-.results {
-	position: center;
-	font-size: 90px;
-	color: rgb(14, 165, 102);
-}
+
 .movesleft {
 	color:white;
 	position: center;
 	font-size: 20px;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-
 }
 
-} 
+.results {
+	position: center;
+	font-size: 90px;
+	color: rgb(14, 165, 102);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-position: center;
+}

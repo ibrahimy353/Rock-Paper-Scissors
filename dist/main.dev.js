@@ -17,8 +17,8 @@ function playRound(playerSelection, computerSelection) {
       return;
     } else {
       if (computerSelection == "paper") {
-        console.log("You lose!  \"Paper\" beats \"Rock\"!");
         return false;
+        console.log("You lose!  \"Paper\" beats \"Rock\"!");
       } else {
         if (computerSelection == "scissors") {
           console.log("You win!  \"Rock\" beats \"Scissors\"!");

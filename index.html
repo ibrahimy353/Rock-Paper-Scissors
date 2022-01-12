@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROCK-PAPER-SCISSORS</title>   
     <link rel="stylesheet" href="main.css">
-    <script src="main.js">async</script>
+    <script src="main.js" defer></script>
 
 </head>
 
@@ -34,13 +34,12 @@
         </div>
         
         <div class="move">Choose your move</div></div>
-        <div class="flex-container">
-          
-
+        
+        <div class="flex-container">  
           <!--Options available to player to play game -->
-        <button class="button1">Rock</button>
-         <button class="button2"> Paper</button>
-         <button class="button3">Scissors</button>    
+        <button id="button1">Rock</button>
+         <button id="button2"> Paper</button>
+         <button id="button3">Scissors</button>    
         </div>
     
           
@@ -49,17 +48,19 @@
         <div class="movesleft"> Moves Left: 5 </div>
           <!--Final result of game -->
 
-        <div class="result">Result</div>
+        <div id="result">Result</div>
+
+        <br><br>
           
         
         <!--Reload the game -->
 
     
-        <button class="button" onclick="myfunction">Reload</button>
+        <button onclick="myfunction">Reload</button>
           
           
 
-        </section>
+      </section>
 
 
       
