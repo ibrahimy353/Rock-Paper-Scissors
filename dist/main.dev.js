@@ -3,7 +3,7 @@
 var options = ["rock", "paper", "scissors"];
 
 var playerSelection = function playerSelection() {
-  return prompt("Choose your weapon of destruction - Rock, Paper or Scissors?");
+  return prompt("Choose your weapon - Rock, Paper or Scissors?");
 };
 
 var computerSelection = function computerPlay() {
