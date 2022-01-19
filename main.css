@@ -15,7 +15,7 @@ body {
 }
 
 .Title {
-	color: rgba(228, 232, 236, 0.959);
+	color: burlywood;
 	font-size: 40px;
 	background-position-x: center;
 
@@ -24,7 +24,7 @@ body {
 
 
 .move {
-	color: rgba(255, 255, 255, 0.925);
+	color:burlywood;
 	position: center;
 	font-size: 24px;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
