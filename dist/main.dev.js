@@ -73,7 +73,7 @@ function game() {
   var computerWins = 0;
   var playRoundReturn = 0;
 
-  while (round <= 5) {
+  while (round <= 3) {
     playRoundReturn = playRound(playerSelection(), computerSelection());
 
     if (playRoundReturn === true) {
