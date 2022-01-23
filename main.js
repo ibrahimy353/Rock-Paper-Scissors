@@ -74,7 +74,7 @@ function game() {
   let computerWins = 0;
   let playRoundReturn = 0;
 
-  while ( round <= 5 ) {
+  while ( round <= 3 ) {
 
     playRoundReturn = playRound(playerSelection(), computerSelection());
     if ( playRoundReturn === true ) {
