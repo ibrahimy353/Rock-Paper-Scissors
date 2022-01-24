@@ -10,6 +10,13 @@ var computerSelection = function computerPlay() {
   return options[Math.floor(Math.random() * options.length)];
 };
 
+var buttons = document.querySelectorAll('button');
+buttons.forEach(function (button) {
+  button.addEventListener('click', function () {
+    alert(button.id);
+  });
+});
+
 function playRound(playerSelection, computerSelection) {
   if (playerSelection.toLowerCase() == "rock") {
     if (computerSelection == "rock") {
@@ -72,20 +79,17 @@ function game() {
   var playerWins = 0;
   var computerWins = 0;
   var playRoundReturn = 0;
+  playRoundReturn = playRound(playerSelection(), computerSelection());
 
-  while (round <= 3) {
-    playRoundReturn = playRound(playerSelection(), computerSelection());
-
-    if (playRoundReturn === true) {
-      playerWins++;
-    } else {
-      if (playRoundReturn === false) {
-        computerWins++;
-      }
+  if (playRoundReturn === true) {
+    playerWins++;
+  } else {
+    if (playRoundReturn === false) {
+      computerWins++;
     }
-
-    round++;
   }
+
+  round++;
 
   if (playerWins < computerWins) {
     console.log("You lose! The Computer has beaten you at the game.");
