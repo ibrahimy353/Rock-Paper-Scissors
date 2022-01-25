@@ -1,14 +1,23 @@
-"use strict";
 
+
+// The available options in an array
 var options = ["rock", "paper", "scissors"];
 
+
+// The user input or user selection. 
+// The user selection will either be Rock , Paper or Scissors
 var playerSelection = function playerSelection() {
   return prompt("Choose your weapon - Rock, Paper or Scissors?");
 };
 
+
+// What the computer randomly selects. The selection will always be between 0 and 2 which is the length of our array.
+// The computer selectio will be Rock, Paper or Scissors
 var computerSelection = function computerPlay() {
   return options[Math.floor(Math.random() * options.length)];
 };
+
+
 
 function playRound(playerSelection, computerSelection) {
   if (playerSelection.toLowerCase() == "rock") {
