@@ -1,5 +1,6 @@
 "use strict";
 
+//declare the variables to hold the options
 var options = ["rock", "paper", "scissors"];
 
 var playerSelection = function playerSelection() {

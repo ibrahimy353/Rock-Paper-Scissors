@@ -1,4 +1,4 @@
-
+//declare the variables to hold the options
 let options = ["rock", "paper", "scissors"];
 
 let playerSelection = function() {
@@ -7,9 +7,12 @@ let playerSelection = function() {
 
 };
 
+
+
 let computerSelection = function computerPlay() {
   return options[Math.floor(Math.random()*options.length)];
 };
+
 
 function playRound(playerSelection, computerSelection) {
 
