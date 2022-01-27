@@ -45,6 +45,7 @@ body {
 	justify-content: center;
 }
 
+
 .button1{
 	position:center;
 	font-size:20px;
@@ -65,17 +66,24 @@ body {
 	
 }
 
-.movesleft {
+.moves-left {
 	color:white;
-	position: center;
+	display: flex;
 	font-size: 20px;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	justify-content: center
 }
 
+.game-results {
+	background-color: none;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+}
 
-.container1 {
-	
-	position:center;
+.Refresh-game {
+	justify-content: center;
 	padding:inherit;
 	font-size: 30px; 
+	display: flex;
 } 
