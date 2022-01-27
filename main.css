@@ -22,7 +22,6 @@ body {
 }
 
 
-
 .move {
 	color:burlywood;
 	position: center;
@@ -79,6 +78,8 @@ body {
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
+	color:khaki;
+
 }
 
 .Refresh-game {
